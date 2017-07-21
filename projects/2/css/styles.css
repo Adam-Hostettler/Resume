@@ -1,0 +1,55 @@
+body {
+  font-family: 'Lato', sans-serif;
+}
+.containter {
+  width: 100%;
+}
+header {
+  min-width: 100%;
+}
+.header-name, .header-title {
+  text-align: right;
+  text-transform: uppercase;
+}
+.header-name {
+  font-weight: 200;
+  padding-top: 10px;
+}
+.header-title {
+  font-weight: 300;
+}
+.header-logo {
+  text-align: left;
+  font-size: 6em;
+  font-weight: bold;
+}
+@media screen and (max-width: 550px) {
+  .header-name {
+    font-size: 2em;
+  }
+  .header-title {
+    font-size: 1em;
+  }
+}
+hr {
+  border-top: 4px solid #7d97ad;
+}
+.content-main-img {
+  max-width: 100%;
+}
+.content-label {
+  font-weight: 300;
+  color: #7d97ad;
+}
+.content-img-row {
+  max-width: 100%;
+  text-align: center;
+}
+.content-project-img {
+  max-width: 100%;
+  min-width: 48px;
+  min-height: 48px;
+}
+.content-project {
+  text-transform: uppercase;
+}
